@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/id_down"
+        android:title="@string/id_down"
+        app:showAsAction="never"
+        android:icon="@drawable/down"
+        android:onClick="id_down"
+        />
+    <item android:id="@+id/title_down"
+        android:title="@string/title_down"
+        app:showAsAction="never"
+        android:icon="@drawable/down"
+        android:onClick="title_down"
+        />
+    <item android:id="@+id/title_up"
+        android:title="@string/title_up"
+        app:showAsAction="never"
+        android:icon="@drawable/up"
+        android:onClick="title_up"
+        />
+
+</menu>
